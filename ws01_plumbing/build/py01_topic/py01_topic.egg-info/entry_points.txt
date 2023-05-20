@@ -1,0 +1,6 @@
+[console_scripts]
+demo01_publisher_str_py = py01_topic.demo01_publisher_str_py:main
+demo02_subscriber_str_py = py01_topic.demo02_subscriber_str_py:main
+demo03_publisher_stu_py = py01_topic.demo03_publisher_stu_py:main
+demo04_subscriber_stu_py = py01_topic.demo04_subscriber_stu_py:main
+

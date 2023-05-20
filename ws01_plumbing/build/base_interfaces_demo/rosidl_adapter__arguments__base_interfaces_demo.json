@@ -1,0 +1,6 @@
+{
+  "package_name": "base_interfaces_demo",
+  "non_idl_tuples": [
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg"
+  ]
+}

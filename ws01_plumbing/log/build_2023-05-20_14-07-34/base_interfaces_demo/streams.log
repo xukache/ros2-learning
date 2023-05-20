@@ -1,0 +1,42 @@
+[0.019s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo
+[0.225s] -- The C compiler identification is GNU 9.5.0
+[0.469s] -- The CXX compiler identification is GNU 9.5.0
+[0.489s] -- Detecting C compiler ABI info
+[0.592s] -- Detecting C compiler ABI info - done
+[0.601s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.602s] -- Detecting C compile features
+[0.603s] -- Detecting C compile features - done
+[0.610s] -- Detecting CXX compiler ABI info
+[0.861s] -- Detecting CXX compiler ABI info - done
+[0.874s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.874s] -- Detecting CXX compile features
+[0.875s] -- Detecting CXX compile features - done
+[0.884s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.165s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.331s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.454s] -- Added test 'lint_cmake' to check CMake code style
+[1.457s] -- Added test 'xmllint' to check XML markup files
+[1.460s] -- Configuring done
+[1.463s] -- Generating done
+[1.464s] -- Build files have been written to: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo
+[1.475s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo
+[1.476s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo -- -j8 -l8
+[1.527s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo -- -j8 -l8
+[1.574s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo
+[1.583s] -- Install configuration: ""
+[1.584s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[1.584s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[1.584s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[1.584s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[1.585s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[1.586s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[1.586s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[1.587s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[1.587s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[1.588s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[1.588s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[1.589s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[1.589s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[1.589s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[1.589s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[1.593s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo
