@@ -1,0 +1,25 @@
+[0.605s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py02_service': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed
+[0.844s] running egg_info
+[0.844s] writing ../../build/py02_service/py02_service.egg-info/PKG-INFO
+[0.845s] writing dependency_links to ../../build/py02_service/py02_service.egg-info/dependency_links.txt
+[0.845s] writing entry points to ../../build/py02_service/py02_service.egg-info/entry_points.txt
+[0.845s] writing requirements to ../../build/py02_service/py02_service.egg-info/requires.txt
+[0.845s] writing top-level names to ../../build/py02_service/py02_service.egg-info/top_level.txt
+[0.846s] reading manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[0.847s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[0.847s] running build
+[0.847s] running build_py
+[0.848s] copying py02_service/demo01_server_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build/lib/py02_service
+[0.848s] running install
+[0.848s] running install_lib
+[0.849s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build/lib/py02_service/demo01_server_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[0.849s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo01_server_py.py to demo01_server_py.cpython-310.pyc
+[0.850s] running install_data
+[0.850s] running install_egg_info
+[0.852s] removing '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.852s] Copying ../../build/py02_service/py02_service.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info
+[0.853s] running install_scripts
+[0.870s] Installing demo01_server_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/py02_service
+[0.870s] Installing demo02_client_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/py02_service
+[0.870s] writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/install.log'
+[0.891s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py02_service' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed
