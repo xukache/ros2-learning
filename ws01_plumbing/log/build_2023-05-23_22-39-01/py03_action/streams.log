@@ -1,0 +1,22 @@
+[0.654s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py03_action': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed
+[0.890s] running egg_info
+[0.890s] writing ../../build/py03_action/py03_action.egg-info/PKG-INFO
+[0.891s] writing dependency_links to ../../build/py03_action/py03_action.egg-info/dependency_links.txt
+[0.891s] writing entry points to ../../build/py03_action/py03_action.egg-info/entry_points.txt
+[0.891s] writing requirements to ../../build/py03_action/py03_action.egg-info/requires.txt
+[0.891s] writing top-level names to ../../build/py03_action/py03_action.egg-info/top_level.txt
+[0.893s] reading manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.895s] writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[0.895s] running build
+[0.895s] running build_py
+[0.895s] running install
+[0.895s] running install_lib
+[0.896s] running install_data
+[0.897s] running install_egg_info
+[0.898s] removing '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info' (and everything under it)
+[0.899s] Copying ../../build/py03_action/py03_action.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info
+[0.899s] running install_scripts
+[0.920s] Installing demo01_action_server_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/py03_action
+[0.920s] Installing demo02_action_client_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/py03_action
+[0.920s] writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/install.log'
+[0.944s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py03_action' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed
