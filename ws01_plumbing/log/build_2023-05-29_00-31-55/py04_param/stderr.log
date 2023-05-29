@@ -1,0 +1,5 @@
+  File "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/lib/python3.10/site-packages/py04_param/demo02_param_client_py.py", line 82
+    for name in response.:
+                         ^
+SyntaxError: invalid syntax
+
