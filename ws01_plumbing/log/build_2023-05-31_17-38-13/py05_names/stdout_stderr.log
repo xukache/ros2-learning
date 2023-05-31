@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/py05_names/py05_names.egg-info/PKG-INFO
+writing dependency_links to ../../build/py05_names/py05_names.egg-info/dependency_links.txt
+writing entry points to ../../build/py05_names/py05_names.egg-info/entry_points.txt
+writing requirements to ../../build/py05_names/py05_names.egg-info/requires.txt
+writing top-level names to ../../build/py05_names/py05_names.egg-info/top_level.txt
+reading manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py05_names/demo01_names.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build/lib/py05_names
+running install
+running install_lib
+copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build/lib/py05_names/demo01_names.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names/demo01_names.py to demo01_names.cpython-310.pyc
+running install_data
+copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names
+running install_egg_info
+removing '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py05_names/py05_names.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo01_names script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/py05_names
+writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/install.log'

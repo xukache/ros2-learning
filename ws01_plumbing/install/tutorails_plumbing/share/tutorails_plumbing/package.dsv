@@ -1,0 +1,6 @@
+source;share/tutorails_plumbing/hook/pythonpath.ps1
+source;share/tutorails_plumbing/hook/pythonpath.dsv
+source;share/tutorails_plumbing/hook/pythonpath.sh
+source;share/tutorails_plumbing/hook/ament_prefix_path.ps1
+source;share/tutorails_plumbing/hook/ament_prefix_path.dsv
+source;share/tutorails_plumbing/hook/ament_prefix_path.sh

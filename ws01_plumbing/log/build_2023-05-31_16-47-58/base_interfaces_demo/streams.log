@@ -1,0 +1,317 @@
+[0.033s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake /home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo
+[0.314s] -- The C compiler identification is GNU 9.5.0
+[0.316s] -- The CXX compiler identification is GNU 9.5.0
+[0.317s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.318s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.318s] -- Detecting CXX compiler ABI info
+[0.319s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.328s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.507s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.628s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.639s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.684s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.109s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.620s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.621s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.646s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.647s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.647s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.647s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.666s] -- Found PythonExtra: .so  
+[1.708s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.726s] -- Added test 'lint_cmake' to check CMake code style
+[1.728s] -- Added test 'xmllint' to check XML markup files
+[1.731s] -- Configuring done
+[1.775s] -- Generating done
+[1.777s] -- Build files have been written to: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo
+[1.783s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake /home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo
+[1.785s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo -- -j8 -l8
+[1.822s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.833s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.840s] [  4%] Built target ament_cmake_python_copy_base_interfaces_demo
+[2.126s] running egg_info
+[2.127s] creating base_interfaces_demo.egg-info
+[2.127s] writing base_interfaces_demo.egg-info/PKG-INFO
+[2.127s] writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+[2.127s] writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+[2.128s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[2.131s] reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[2.132s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[2.165s] [  4%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+[2.441s] [  4%] Built target base_interfaces_demo__cpp
+[2.456s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.460s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.461s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.476s] [ 12%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o[0m
+[2.479s] [ 14%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c.o[0m
+[2.479s] [ 17%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o[0m
+[2.620s] [ 19%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so[0m
+[2.666s] [ 19%] Built target base_interfaces_demo__rosidl_generator_c
+[2.680s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.680s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.681s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.073s] [ 27%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[3.075s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/action/progress__type_support.cpp.o[0m
+[3.076s] [ 31%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/add_ints__type_support.cpp.o[0m
+[3.091s] [ 34%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/student__type_support.cpp.o[0m
+[3.515s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[3.551s] [ 38%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[3.565s] [ 40%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.cpp.o[0m
+[3.581s] [ 42%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/add_ints__type_support.cpp.o[0m
+[3.657s] [ 44%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/action/progress__type_support.cpp.o[0m
+[3.701s] [ 46%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/action/detail/progress__type_support.cpp.o[0m
+[3.736s] [ 48%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/student__type_support_c.cpp.o[0m
+[3.737s] [ 51%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o[0m
+[3.751s] [ 53%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so[0m
+[3.796s] [ 55%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o[0m
+[3.809s] [ 57%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c.o[0m
+[3.847s] [ 57%] Built target base_interfaces_demo__rosidl_typesupport_c
+[3.855s] [ 59%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so[0m
+[3.862s] [ 61%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/add_ints__type_support_c.cpp.o[0m
+[3.906s] [ 63%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/add_ints__type_support.cpp.o[0m
+[3.966s] [ 65%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so[0m
+[3.983s] [ 65%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[4.034s] [ 68%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/action/detail/dds_fastrtps/progress__type_support.cpp.o[0m
+[4.082s] [ 68%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[4.138s] [ 70%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/action/detail/progress__type_support_c.cpp.o[0m
+[4.651s] [ 72%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so[0m
+[4.702s] [ 74%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so[0m
+[4.742s] [ 74%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[4.793s] [ 74%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[4.793s] [ 76%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.870s] [ 76%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[4.887s] [ 76%] Built target base_interfaces_demo
+[4.905s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.814s] [ 78%] Built target base_interfaces_demo__py
+[5.833s] [ 80%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c.o[0m
+[5.833s] [ 82%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/action/_progress_s.c.o[0m
+[5.833s] [ 85%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c.o[0m
+[5.970s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so[0m
+[6.009s] [ 87%] Built target base_interfaces_demo__rosidl_generator_py
+[6.029s] [ 91%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.029s] [ 91%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[6.029s] [ 93%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.155s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.155s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.157s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.197s] [100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext
+[6.197s] [100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext
+[6.199s] [100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext
+[6.209s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo -- -j8 -l8
+[6.311s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo
+[6.318s] -- Install configuration: ""
+[6.318s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+[6.319s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[6.319s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[6.319s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+[6.319s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h
+[6.319s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[6.319s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h
+[6.320s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h
+[6.320s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h
+[6.320s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c
+[6.320s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[6.320s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.h
+[6.320s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[6.321s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.h
+[6.321s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.c
+[6.321s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.h
+[6.321s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.h
+[6.321s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[6.322s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.h
+[6.322s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[6.322s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.c
+[6.322s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.h
+[6.322s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.h
+[6.322s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.h
+[6.322s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+[6.323s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+[6.323s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+[6.323s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""
+[6.323s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[6.323s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[6.323s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.324s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[6.324s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[6.324s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[6.324s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[6.324s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_c.h
+[6.324s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[6.324s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[6.324s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_c.h
+[6.325s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+[6.325s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[6.325s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[6.325s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[6.325s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.325s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[6.325s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[6.325s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c
+[6.326s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[6.326s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[6.326s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_c.h
+[6.327s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.c
+[6.327s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[6.327s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[6.327s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h
+[6.327s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c
+[6.327s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+[6.328s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""
+[6.328s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+[6.328s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""
+[6.328s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[6.328s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[6.328s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp
+[6.328s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[6.329s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp
+[6.329s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp
+[6.329s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp
+[6.329s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[6.329s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.hpp
+[6.329s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[6.330s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__builder.hpp
+[6.330s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.hpp
+[6.330s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__traits.hpp
+[6.330s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[6.330s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.hpp
+[6.330s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[6.330s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__traits.hpp
+[6.330s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.hpp
+[6.331s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__builder.hpp
+[6.331s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[6.331s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[6.331s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[6.331s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps
+[6.331s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[6.331s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.332s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[6.332s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[6.332s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/dds_fastrtps
+[6.332s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp
+[6.332s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[6.332s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[6.332s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps
+[6.332s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[6.333s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+[6.333s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.333s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[6.333s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[6.333s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[6.333s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[6.333s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp
+[6.333s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[6.333s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[6.334s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp
+[6.334s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.cpp
+[6.334s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[6.334s] -- Up-to-date: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[6.334s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_cpp.hpp
+[6.334s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.cpp
+[6.334s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+[6.335s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[6.335s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+[6.335s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""
+[6.335s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+[6.335s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+[6.335s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info
+[6.335s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.335s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt
+[6.335s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[6.336s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.336s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo
+[6.336s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg
+[6.336s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py
+[6.336s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py
+[6.336s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c
+[6.336s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+[6.337s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action
+[6.337s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress_s.c
+[6.337s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/__init__.py
+[6.337s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress.py
+[6.337s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.337s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
+[6.337s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv
+[6.337s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints_s.c
+[6.337s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py
+[6.337s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py
+[6.338s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.338s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py
+[6.338s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.338s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.338s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so
+[6.375s] Listing '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...
+[6.375s] Compiling '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...
+[6.375s] Listing '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action'...
+[6.375s] Compiling '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/__init__.py'...
+[6.375s] Compiling '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress.py'...
+[6.375s] Listing '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...
+[6.376s] Compiling '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py'...
+[6.376s] Compiling '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py'...
+[6.376s] Listing '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv'...
+[6.376s] Compiling '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py'...
+[6.376s] Compiling '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py'...
+[6.380s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.380s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.380s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.381s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.381s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.381s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.382s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so
+[6.382s] -- Set runtime path of "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""
+[6.382s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl
+[6.382s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.idl
+[6.382s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.idl
+[6.383s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg
+[6.383s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.srv
+[6.383s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts_Request.msg
+[6.383s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts_Response.msg
+[6.383s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.action
+[6.383s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[6.383s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[6.383s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[6.384s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[6.384s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[6.384s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[6.384s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[6.384s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[6.384s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[6.384s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[6.384s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[6.385s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[6.385s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake
+[6.385s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+[6.385s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[6.385s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.385s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+[6.385s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.385s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+[6.386s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+[6.386s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake
+[6.386s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.386s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.386s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+[6.386s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.386s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+[6.387s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[6.387s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake
+[6.387s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake
+[6.387s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+[6.387s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.387s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.387s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[6.387s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+[6.388s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.388s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.388s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[6.388s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[6.388s] -- Installing: /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[6.393s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo

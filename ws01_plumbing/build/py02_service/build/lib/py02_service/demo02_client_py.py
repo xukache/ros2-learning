@@ -43,7 +43,7 @@ class AddIntsClient(Node):
 
 def main():
     # 校验操作
-    print(sys.argv)
+    # print(sys.argv)
     if len(sys.argv) != 3:
         get_logger("rclpy").info("请提交两个整型数据")
         return

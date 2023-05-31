@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/tutorails_plumbing/tutorails_plumbing.egg-info
+writing ../../build/tutorails_plumbing/tutorails_plumbing.egg-info/PKG-INFO
+writing dependency_links to ../../build/tutorails_plumbing/tutorails_plumbing.egg-info/dependency_links.txt
+writing entry points to ../../build/tutorails_plumbing/tutorails_plumbing.egg-info/entry_points.txt
+writing requirements to ../../build/tutorails_plumbing/tutorails_plumbing.egg-info/requires.txt
+writing top-level names to ../../build/tutorails_plumbing/tutorails_plumbing.egg-info/top_level.txt
+writing manifest file '../../build/tutorails_plumbing/tutorails_plumbing.egg-info/SOURCES.txt'
+reading manifest file '../../build/tutorails_plumbing/tutorails_plumbing.egg-info/SOURCES.txt'
+writing manifest file '../../build/tutorails_plumbing/tutorails_plumbing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build/lib
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build/lib/tutorails_plumbing
+copying tutorails_plumbing/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build/lib/tutorails_plumbing
+running install
+running install_lib
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages/tutorails_plumbing
+copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build/lib/tutorails_plumbing/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages/tutorails_plumbing
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages/tutorails_plumbing/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/ament_index
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index/packages
+copying resource/tutorails_plumbing -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index/packages
+copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing
+running install_egg_info
+Copying ../../build/tutorails_plumbing/tutorails_plumbing.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages/tutorails_plumbing-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/install.log'

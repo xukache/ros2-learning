@@ -1,0 +1,25 @@
+[0.685s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py05_names': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/install.log --single-version-externally-managed
+[0.937s] running egg_info
+[0.938s] writing ../../build/py05_names/py05_names.egg-info/PKG-INFO
+[0.938s] writing dependency_links to ../../build/py05_names/py05_names.egg-info/dependency_links.txt
+[0.938s] writing entry points to ../../build/py05_names/py05_names.egg-info/entry_points.txt
+[0.938s] writing requirements to ../../build/py05_names/py05_names.egg-info/requires.txt
+[0.938s] writing top-level names to ../../build/py05_names/py05_names.egg-info/top_level.txt
+[0.940s] reading manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[0.941s] writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+[0.941s] running build
+[0.941s] running build_py
+[0.941s] copying py05_names/demo01_names.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build/lib/py05_names
+[0.941s] running install
+[0.941s] running install_lib
+[0.942s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build/lib/py05_names/demo01_names.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+[0.943s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names/demo01_names.py to demo01_names.cpython-310.pyc
+[0.943s] running install_data
+[0.944s] copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names
+[0.944s] running install_egg_info
+[0.945s] removing '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names-0.0.0-py3.10.egg-info' (and everything under it)
+[0.946s] Copying ../../build/py05_names/py05_names.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names-0.0.0-py3.10.egg-info
+[0.947s] running install_scripts
+[0.965s] Installing demo01_names script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/py05_names
+[0.965s] writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/install.log'
+[0.988s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py05_names' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/install.log --single-version-externally-managed

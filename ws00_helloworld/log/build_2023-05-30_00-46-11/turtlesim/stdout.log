@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/turtlesim/turtlesim.egg-info
+writing ../../build/turtlesim/turtlesim.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlesim/turtlesim.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlesim/turtlesim.egg-info/entry_points.txt
+writing requirements to ../../build/turtlesim/turtlesim.egg-info/requires.txt
+writing top-level names to ../../build/turtlesim/turtlesim.egg-info/top_level.txt
+writing manifest file '../../build/turtlesim/turtlesim.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlesim/turtlesim.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlesim/turtlesim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build
+creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib
+creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib/turtlesim
+copying turtlesim/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib/turtlesim
+copying turtlesim/turtlesim_node.py -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib/turtlesim
+running install
+running install_lib
+creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim
+copying /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib/turtlesim/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim
+copying /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib/turtlesim/turtlesim_node.py -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim/turtlesim_node.py to turtlesim_node.cpython-310.pyc
+running install_data
+creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/share/ament_index
+creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/share/ament_index/resource_index
+creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/share/ament_index/resource_index/packages
+copying resource/turtlesim -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/share/ament_index/resource_index/packages
+copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/share/turtlesim
+running install_egg_info
+Copying ../../build/turtlesim/turtlesim.egg-info to /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtlesim_node script to /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/turtlesim
+writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/install.log'

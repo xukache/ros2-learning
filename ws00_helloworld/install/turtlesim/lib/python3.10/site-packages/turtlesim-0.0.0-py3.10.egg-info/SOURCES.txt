@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/turtlesim/turtlesim.egg-info/PKG-INFO
+../../build/turtlesim/turtlesim.egg-info/SOURCES.txt
+../../build/turtlesim/turtlesim.egg-info/dependency_links.txt
+../../build/turtlesim/turtlesim.egg-info/entry_points.txt
+../../build/turtlesim/turtlesim.egg-info/requires.txt
+../../build/turtlesim/turtlesim.egg-info/top_level.txt
+../../build/turtlesim/turtlesim.egg-info/zip-safe
+resource/turtlesim
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+turtlesim/__init__.py
+turtlesim/turtlesim_node.py

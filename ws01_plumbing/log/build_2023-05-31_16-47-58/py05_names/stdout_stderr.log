@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/py05_names/py05_names.egg-info
+writing ../../build/py05_names/py05_names.egg-info/PKG-INFO
+writing dependency_links to ../../build/py05_names/py05_names.egg-info/dependency_links.txt
+writing entry points to ../../build/py05_names/py05_names.egg-info/entry_points.txt
+writing requirements to ../../build/py05_names/py05_names.egg-info/requires.txt
+writing top-level names to ../../build/py05_names/py05_names.egg-info/top_level.txt
+writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+reading manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+writing manifest file '../../build/py05_names/py05_names.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build/lib
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build/lib/py05_names
+copying py05_names/demo01_names.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build/lib/py05_names
+copying py05_names/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build/lib/py05_names
+running install
+running install_lib
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build/lib/py05_names/demo01_names.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build/lib/py05_names/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names/demo01_names.py to demo01_names.cpython-310.pyc
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/ament_index
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/ament_index/resource_index
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/ament_index/resource_index/packages
+copying resource/py05_names -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/ament_index/resource_index/packages
+copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/launch
+copying launch/demo01_names_launch.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/launch
+copying launch/demo02_names_launch.xml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/launch
+copying launch/demo03_names_launch.yaml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/launch
+running install_egg_info
+Copying ../../build/py05_names/py05_names.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages/py05_names-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo01_names script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/py05_names
+writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/install.log'

@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000171] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
-[0.000290] (-) JobUnselected: {'identifier': 'py01_topic'}
-[0.000314] (-) JobUnselected: {'identifier': 'py02_service'}
-[0.000332] (-) JobUnselected: {'identifier': 'py03_action'}
-[0.000349] (-) EventReactorShutdown: {}

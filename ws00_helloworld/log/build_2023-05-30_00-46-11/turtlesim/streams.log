@@ -1,0 +1,37 @@
+[0.594s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws00_helloworld/src/turtlesim': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/prefix_override:/home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim build --build-base /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build install --record /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/install.log --single-version-externally-managed
+[0.821s] running egg_info
+[0.821s] creating ../../build/turtlesim/turtlesim.egg-info
+[0.821s] writing ../../build/turtlesim/turtlesim.egg-info/PKG-INFO
+[0.822s] writing dependency_links to ../../build/turtlesim/turtlesim.egg-info/dependency_links.txt
+[0.822s] writing entry points to ../../build/turtlesim/turtlesim.egg-info/entry_points.txt
+[0.822s] writing requirements to ../../build/turtlesim/turtlesim.egg-info/requires.txt
+[0.822s] writing top-level names to ../../build/turtlesim/turtlesim.egg-info/top_level.txt
+[0.822s] writing manifest file '../../build/turtlesim/turtlesim.egg-info/SOURCES.txt'
+[0.823s] reading manifest file '../../build/turtlesim/turtlesim.egg-info/SOURCES.txt'
+[0.824s] writing manifest file '../../build/turtlesim/turtlesim.egg-info/SOURCES.txt'
+[0.824s] running build
+[0.824s] running build_py
+[0.824s] creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build
+[0.825s] creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib
+[0.825s] creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib/turtlesim
+[0.825s] copying turtlesim/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib/turtlesim
+[0.825s] copying turtlesim/turtlesim_node.py -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib/turtlesim
+[0.825s] running install
+[0.825s] running install_lib
+[0.825s] creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim
+[0.825s] copying /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib/turtlesim/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim
+[0.826s] copying /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build/lib/turtlesim/turtlesim_node.py -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim
+[0.826s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim/__init__.py to __init__.cpython-310.pyc
+[0.826s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim/turtlesim_node.py to turtlesim_node.cpython-310.pyc
+[0.826s] running install_data
+[0.827s] creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/share/ament_index
+[0.827s] creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/share/ament_index/resource_index
+[0.827s] creating /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/share/ament_index/resource_index/packages
+[0.828s] copying resource/turtlesim -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/share/ament_index/resource_index/packages
+[0.828s] copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/share/turtlesim
+[0.828s] running install_egg_info
+[0.829s] Copying ../../build/turtlesim/turtlesim.egg-info to /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages/turtlesim-0.0.0-py3.10.egg-info
+[0.830s] running install_scripts
+[0.847s] Installing turtlesim_node script to /home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/turtlesim
+[0.847s] writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/install.log'
+[0.868s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws00_helloworld/src/turtlesim' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/prefix_override:/home/xukai/00-Learn/ros2-learning/ws00_helloworld/install/turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim build --build-base /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/build install --record /home/xukai/00-Learn/ros2-learning/ws00_helloworld/build/turtlesim/install.log --single-version-externally-managed

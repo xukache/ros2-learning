@@ -1,0 +1,12 @@
+<launch>
+    <!-- 节点设置命名空间和名称重命名 -->
+    <!-- <node pkg="turtlesim" exec="turtlesim_node" name="turtle1" />
+    <node pkg="turtlesim" exec="turtlesim_node" namespace="t1" />
+    <node pkg="turtlesim" exec="turtlesim_node" namespace="t1" name="turtle1" /> -->
+
+    <!-- 话题设置命名空间和名称重命名 -->
+    <node pkg="turtlesim" exec="turtlesim_node" namespace="t1" />
+    <node pkg="turtlesim" exec="turtlesim_node">
+        <remap from="/turtle1/cmd_vel" to="/cmd_vel" />
+    </node>
+</launch>
