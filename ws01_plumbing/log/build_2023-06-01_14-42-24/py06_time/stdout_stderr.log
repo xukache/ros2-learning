@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/py06_time/py06_time.egg-info
+writing ../../build/py06_time/py06_time.egg-info/PKG-INFO
+writing dependency_links to ../../build/py06_time/py06_time.egg-info/dependency_links.txt
+writing entry points to ../../build/py06_time/py06_time.egg-info/entry_points.txt
+writing requirements to ../../build/py06_time/py06_time.egg-info/requires.txt
+writing top-level names to ../../build/py06_time/py06_time.egg-info/top_level.txt
+writing manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+reading manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+writing manifest file '../../build/py06_time/py06_time.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/build
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/build/lib
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/build/lib/py06_time
+copying py06_time/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/build/lib/py06_time
+copying py06_time/demo01_time.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/build/lib/py06_time
+running install
+running install_lib
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time
+copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/build/lib/py06_time/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time
+copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/build/lib/py06_time/demo01_time.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time/demo01_time.py to demo01_time.cpython-310.pyc
+running install_data
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/ament_index
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/ament_index/resource_index
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/ament_index/resource_index/packages
+copying resource/py06_time -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/ament_index/resource_index/packages
+copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time
+running install_egg_info
+Copying ../../build/py06_time/py06_time.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/python3.10/site-packages/py06_time-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demo01_time script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/py06_time
+writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/install.log'
