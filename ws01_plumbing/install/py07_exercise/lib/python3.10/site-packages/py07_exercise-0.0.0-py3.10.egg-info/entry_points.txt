@@ -1,0 +1,3 @@
+[console_scripts]
+exe01_pub_sub_py = py07_exercise.exe01_pub_sub_py:main
+
