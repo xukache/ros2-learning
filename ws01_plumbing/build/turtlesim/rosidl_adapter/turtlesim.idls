@@ -1,0 +1,8 @@
+/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

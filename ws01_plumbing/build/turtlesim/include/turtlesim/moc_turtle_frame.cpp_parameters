@@ -1,0 +1,10 @@
+-I/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim/include
+-I/usr/include/x86_64-linux-gnu/qt5
+-I/usr/include/x86_64-linux-gnu/qt5/QtWidgets
+-I/usr/include/x86_64-linux-gnu/qt5/QtGui
+-I/usr/include/x86_64-linux-gnu/qt5/QtCore
+-I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
+-DROS_PACKAGE_NAME="turtlesim"
+-o
+/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim/include/turtlesim/moc_turtle_frame.cpp
+/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim/include/turtlesim/turtle_frame.h

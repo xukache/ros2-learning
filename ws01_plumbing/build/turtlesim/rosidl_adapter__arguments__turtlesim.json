@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim:action/RotateAbsolute.action",
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim:msg/Color.msg",
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim:msg/Pose.msg",
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim:srv/Kill.srv",
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim:srv/SetPen.srv",
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim:srv/Spawn.srv",
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim:srv/TeleportRelative.srv"
+  ]
+}
