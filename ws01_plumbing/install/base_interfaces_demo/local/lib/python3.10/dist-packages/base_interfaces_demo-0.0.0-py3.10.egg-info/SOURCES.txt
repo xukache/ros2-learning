@@ -10,3 +10,4 @@ base_interfaces_demo/msg/__init__.py
 base_interfaces_demo/msg/_student.py
 base_interfaces_demo/srv/__init__.py
 base_interfaces_demo/srv/_add_ints.py
+base_interfaces_demo/srv/_distance.py

@@ -12,6 +12,10 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__builder.hpp"
   "rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__struct.hpp"
   "rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__traits.hpp"
+  "rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__builder.hpp"
+  "rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__struct.hpp"
+  "rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__traits.hpp"
+  "rosidl_generator_cpp/base_interfaces_demo/srv/distance.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

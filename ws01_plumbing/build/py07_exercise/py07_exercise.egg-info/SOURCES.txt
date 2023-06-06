@@ -9,8 +9,12 @@ setup.py
 ../../build/py07_exercise/py07_exercise.egg-info/top_level.txt
 ../../build/py07_exercise/py07_exercise.egg-info/zip-safe
 launch/exe01_pub_sub.launch.py
+launch/exe02_server.launch.py
+launch/exe03_client.launch.py
 py07_exercise/__init__.py
 py07_exercise/exe01_pub_sub_py.py
+py07_exercise/exe02_server_py.py
+py07_exercise/exe03_client_py.py
 resource/py07_exercise
 test/test_copyright.py
 test/test_flake8.py

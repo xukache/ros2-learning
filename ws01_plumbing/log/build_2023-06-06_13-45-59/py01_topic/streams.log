@@ -1,0 +1,49 @@
+[3.681s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py01_topic': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed
+[4.334s] running egg_info
+[4.337s] creating ../../build/py01_topic/py01_topic.egg-info
+[4.338s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[4.354s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[4.354s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[4.354s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[4.354s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[4.355s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[4.358s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[4.359s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[4.359s] running build
+[4.359s] running build_py
+[4.360s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build
+[4.360s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib
+[4.360s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[4.360s] copying py01_topic/demo01_publisher_str_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[4.360s] copying py01_topic/demo03_publisher_stu_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[4.360s] copying py01_topic/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[4.361s] copying py01_topic/demo02_subscriber_str_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[4.361s] copying py01_topic/demo04_subscriber_stu_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[4.361s] running install
+[4.362s] running install_lib
+[4.363s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[4.363s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo01_publisher_str_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[4.363s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo03_publisher_stu_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[4.364s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[4.364s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo02_subscriber_str_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[4.364s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo04_subscriber_stu_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[4.365s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_publisher_str_py.py to demo01_publisher_str_py.cpython-310.pyc
+[4.366s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo03_publisher_stu_py.py to demo03_publisher_stu_py.cpython-310.pyc
+[4.367s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py to __init__.cpython-310.pyc
+[4.367s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo02_subscriber_str_py.py to demo02_subscriber_str_py.cpython-310.pyc
+[4.368s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo04_subscriber_stu_py.py to demo04_subscriber_stu_py.cpython-310.pyc
+[4.368s] running install_data
+[4.370s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/ament_index
+[4.377s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/ament_index/resource_index
+[4.377s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[4.378s] copying resource/py01_topic -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[4.379s] copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic
+[4.380s] running install_egg_info
+[4.384s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[4.386s] running install_scripts
+[4.423s] Installing demo01_publisher_str_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/py01_topic
+[4.424s] Installing demo02_subscriber_str_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/py01_topic
+[4.425s] Installing demo03_publisher_stu_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/py01_topic
+[4.427s] Installing demo04_subscriber_stu_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/py01_topic
+[4.428s] writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/install.log'
+[4.528s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py01_topic' returned '0': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed

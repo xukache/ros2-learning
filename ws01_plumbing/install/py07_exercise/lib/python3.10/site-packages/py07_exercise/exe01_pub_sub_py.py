@@ -1,5 +1,18 @@
 """
     需求：订阅窗口1中的乌龟速度，然后生成控制窗口2乌龟运动的指令并发布。
+    明确：
+        订阅话题：/turtle1/pose
+        订阅消息：turtlesim/msg/Pose
+                x: 0.0
+                y: 0.0
+                theta: 0.0
+                linear_velocty: 0.0
+                angular_velocity: 0.0
+        发布话题：/t2/turtle1/cmd_vel
+        发布消息：geometry_msgs/msg/Twist
+                linear:
+                    x: 0.0 ---- 前后
+                    y: 0.0 ---- 左右
     步骤：
         1. 导包
         2. 初始化 ROS2 客户端

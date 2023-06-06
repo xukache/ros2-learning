@@ -79,6 +79,7 @@ rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosi
 rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h: rosidl_adapter/base_interfaces_demo/msg/Student.idl
 rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h: rosidl_adapter/base_interfaces_demo/srv/AddInts.idl
+rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h: rosidl_adapter/base_interfaces_demo/srv/Distance.idl
 rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h: rosidl_adapter/base_interfaces_demo/action/Progress.idl
 rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
@@ -93,6 +94,9 @@ rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosi
 rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h
 
+rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_c.h
 
@@ -101,6 +105,9 @@ rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type
 
 rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c: rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c
+
+rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c: rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c
 
 rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c: rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c
@@ -133,10 +140,24 @@ CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_t
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c -o CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c.s
 
+CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.o: CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.o: rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c
+CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.o: CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.o -MF CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.o.d -o CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.o -c /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c
+
+CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c > CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.i
+
+CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c -o CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.s
+
 CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o: CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o: rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c
 CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o: CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o -MF CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o.d -o CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o -c /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c
 
 CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.i: cmake_force
@@ -151,6 +172,7 @@ CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_t
 base_interfaces_demo__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o" \
 "CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c.o" \
+"CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.o" \
 "CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o"
 
 # External object files for target base_interfaces_demo__rosidl_typesupport_introspection_c
@@ -158,6 +180,7 @@ base_interfaces_demo__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libbase_interfaces_demo__rosidl_typesupport_introspection_c.so: CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o
 libbase_interfaces_demo__rosidl_typesupport_introspection_c.so: CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c.o
+libbase_interfaces_demo__rosidl_typesupport_introspection_c.so: CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c.o
 libbase_interfaces_demo__rosidl_typesupport_introspection_c.so: CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o
 libbase_interfaces_demo__rosidl_typesupport_introspection_c.so: CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/build.make
 libbase_interfaces_demo__rosidl_typesupport_introspection_c.so: libbase_interfaces_demo__rosidl_generator_c.so
@@ -171,7 +194,7 @@ libbase_interfaces_demo__rosidl_typesupport_introspection_c.so: /opt/ros/humble/
 libbase_interfaces_demo__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libbase_interfaces_demo__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libbase_interfaces_demo__rosidl_typesupport_introspection_c.so: CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -188,6 +211,8 @@ CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/depend: 
 CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c
 CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h
 CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c
+CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__rosidl_typesupport_introspection_c.h
+CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/distance__type_support.c
 	cd /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo /home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/depend
 

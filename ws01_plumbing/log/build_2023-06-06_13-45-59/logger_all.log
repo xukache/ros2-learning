@@ -1,0 +1,633 @@
+[0.299s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.299s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1806bbb5e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1806bbb070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1806bbb070>>)
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.320s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py01_topic' with type 'ros.ament_python' and name 'py01_topic'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py02_service) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py02_service' with type 'ros.ament_python' and name 'py02_service'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/py03_action) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py03_action' with type 'ros.ament_python' and name 'py03_action'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py04_param) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py04_param) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py04_param) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py04_param) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py04_param) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py04_param) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py04_param) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py04_param) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py04_param) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py04_param' with type 'ros.ament_python' and name 'py04_param'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/py05_names) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py05_names) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py05_names) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py05_names) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py05_names) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py05_names) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py05_names) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py05_names) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py05_names) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py05_names' with type 'ros.ament_python' and name 'py05_names'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py06_time) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py06_time) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py06_time) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py06_time) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py06_time) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py06_time) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py06_time) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py06_time) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py06_time) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py06_time' with type 'ros.ament_python' and name 'py06_time'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py07_exercise) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py07_exercise) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py07_exercise) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py07_exercise) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py07_exercise) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py07_exercise) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py07_exercise) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/py07_exercise) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/py07_exercise) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py07_exercise' with type 'ros.ament_python' and name 'py07_exercise'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorails_plumbing) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorails_plumbing) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorails_plumbing) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorails_plumbing) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorails_plumbing) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorails_plumbing) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorails_plumbing) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorails_plumbing) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorails_plumbing) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorails_plumbing' with type 'ros.ament_python' and name 'tutorails_plumbing'
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.366s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.421s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'base_interfaces_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo', 'merge_install': False, 'path': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py04_param' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py04_param' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py04_param' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py04_param' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py04_param' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py04_param' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py04_param' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py04_param' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'py04_param' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'py04_param' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py04_param', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param', 'merge_install': False, 'path': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py04_param', 'symlink_install': False, 'test_result_base': None}
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py05_names' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py05_names' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py05_names' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'py05_names' build argument 'cmake_clean_cache' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py05_names' build argument 'cmake_clean_first' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py05_names' build argument 'cmake_force_configure' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py05_names' build argument 'ament_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py05_names' build argument 'catkin_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'py05_names' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.427s] DEBUG:colcon.colcon_core.verb:Building package 'py05_names' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names', 'merge_install': False, 'path': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py05_names', 'symlink_install': False, 'test_result_base': None}
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'py06_time' build argument 'cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'py06_time' build argument 'cmake_target' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'py06_time' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'py06_time' build argument 'cmake_clean_cache' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'py06_time' build argument 'cmake_clean_first' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'py06_time' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'py06_time' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'py06_time' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'py06_time' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'py06_time' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time', 'merge_install': False, 'path': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py06_time', 'symlink_install': False, 'test_result_base': None}
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'py07_exercise' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'py07_exercise' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'py07_exercise' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'py07_exercise' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'py07_exercise' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'py07_exercise' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'py07_exercise' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'py07_exercise' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'py07_exercise' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'py07_exercise' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise', 'merge_install': False, 'path': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py07_exercise', 'symlink_install': False, 'test_result_base': None}
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim', 'merge_install': False, 'path': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'py01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic', 'merge_install': False, 'path': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py01_topic', 'symlink_install': False, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'py02_service' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'py02_service' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'py02_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'py02_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'py02_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'py02_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'py02_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'py02_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'py02_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'py02_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service', 'merge_install': False, 'path': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py02_service', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'py03_action' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'py03_action' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'py03_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'py03_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'py03_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'py03_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'py03_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'py03_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'py03_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'py03_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action', 'merge_install': False, 'path': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py03_action', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tutorails_plumbing' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tutorails_plumbing' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tutorails_plumbing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tutorails_plumbing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tutorails_plumbing' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'tutorails_plumbing' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'tutorails_plumbing' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'tutorails_plumbing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'tutorails_plumbing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'tutorails_plumbing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing', 'merge_install': False, 'path': '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/tutorails_plumbing', 'symlink_install': False, 'test_result_base': None}
+[0.439s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.442s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo' with build type 'ament_cmake'
+[0.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo'
+[0.447s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.451s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py04_param' with build type 'ament_python'
+[0.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('py04_param', 'ament_prefix_path')
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/hook/ament_prefix_path.ps1'
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/hook/ament_prefix_path.dsv'
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/hook/ament_prefix_path.sh'
+[0.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py05_names' with build type 'ament_python'
+[0.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('py05_names', 'ament_prefix_path')
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/hook/ament_prefix_path.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/hook/ament_prefix_path.dsv'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/hook/ament_prefix_path.sh'
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py06_time' with build type 'ament_python'
+[0.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('py06_time', 'ament_prefix_path')
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/hook/ament_prefix_path.ps1'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/hook/ament_prefix_path.dsv'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/hook/ament_prefix_path.sh'
+[0.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.478s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py07_exercise' with build type 'ament_python'
+[0.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('py07_exercise', 'ament_prefix_path')
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/hook/ament_prefix_path.ps1'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/hook/ament_prefix_path.dsv'
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/hook/ament_prefix_path.sh'
+[0.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim' with build type 'ament_cmake'
+[0.486s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim'
+[0.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo
+[0.764s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py04_param'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.056s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py05_names'
+[1.057s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.057s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.312s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py06_time'
+[1.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.610s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py07_exercise'
+[1.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim -DCMAKE_INSTALL_PREFIX=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim
+[2.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py05_names': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/install.log --single-version-externally-managed
+[2.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py07_exercise': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py07_exercise build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/install.log --single-version-externally-managed
+[2.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py06_time': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py06_time build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/install.log --single-version-externally-managed
+[2.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py04_param': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py04_param/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py04_param/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py04_param/install.log --single-version-externally-managed
+[2.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo
+[2.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo -- -j8 -l8
+[2.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py05_names' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py05_names build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py05_names/install.log --single-version-externally-managed
+[2.702s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names' for CMake module files
+[2.703s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names' for CMake config files
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/bin'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/pkgconfig/py05_names.pc'
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/lib/python3.10/site-packages'
+[2.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('py05_names', 'pythonpath')
+[2.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/hook/pythonpath.ps1'
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/hook/pythonpath.dsv'
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/hook/pythonpath.sh'
+[2.732s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/bin'
+[2.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py05_names)
+[2.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/package.ps1'
+[2.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/package.dsv'
+[2.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/package.sh'
+[2.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/package.bash'
+[2.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/py05_names/package.zsh'
+[2.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py05_names/share/colcon-core/packages/py05_names)
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise' for CMake module files
+[2.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py07_exercise' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py07_exercise build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/install.log --single-version-externally-managed
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise' for CMake config files
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib'
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/bin'
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/pkgconfig/py07_exercise.pc'
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages'
+[2.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('py07_exercise', 'pythonpath')
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/hook/pythonpath.ps1'
+[2.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/hook/pythonpath.dsv'
+[2.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/hook/pythonpath.sh'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/bin'
+[2.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py07_exercise)
+[2.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/package.ps1'
+[2.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/package.dsv'
+[2.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/package.sh'
+[2.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/package.bash'
+[2.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/package.zsh'
+[2.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/colcon-core/packages/py07_exercise)
+[2.920s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time' for CMake module files
+[2.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py06_time' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py06_time build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py06_time/install.log --single-version-externally-managed
+[2.921s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time' for CMake config files
+[2.922s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib'
+[2.922s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/bin'
+[2.922s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/pkgconfig/py06_time.pc'
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/lib/python3.10/site-packages'
+[2.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('py06_time', 'pythonpath')
+[2.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/hook/pythonpath.ps1'
+[2.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/hook/pythonpath.dsv'
+[2.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/hook/pythonpath.sh'
+[2.928s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/bin'
+[2.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py06_time)
+[2.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/package.ps1'
+[2.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/package.dsv'
+[2.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/package.sh'
+[2.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/package.bash'
+[2.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/py06_time/package.zsh'
+[2.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py06_time/share/colcon-core/packages/py06_time)
+[2.939s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param' for CMake module files
+[2.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py04_param' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py04_param/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py04_param/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py04_param/install.log --single-version-externally-managed
+[2.941s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param' for CMake config files
+[2.942s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/lib'
+[2.942s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/bin'
+[2.942s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/lib/pkgconfig/py04_param.pc'
+[2.942s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/lib/python3.10/site-packages'
+[2.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('py04_param', 'pythonpath')
+[2.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/hook/pythonpath.ps1'
+[2.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/hook/pythonpath.dsv'
+[2.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/hook/pythonpath.sh'
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/bin'
+[2.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py04_param)
+[2.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/package.ps1'
+[2.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/package.dsv'
+[2.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/package.sh'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/package.bash'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/py04_param/package.zsh'
+[2.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/share/colcon-core/packages/py04_param)
+[6.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/turtlesim -DCMAKE_INSTALL_PREFIX=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim
+[6.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim -- -j8 -l8
+[10.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo -- -j8 -l8
+[11.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo
+[11.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[11.991s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo' for CMake module files
+[11.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo
+[11.994s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo' for CMake config files
+[11.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[12.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[12.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[12.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[12.009s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib'
+[12.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[12.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[12.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[12.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[12.021s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/bin'
+[12.021s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[12.022s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/python3.10/site-packages'
+[12.023s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/bin'
+[12.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[12.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[12.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[12.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[12.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[12.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[13.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[13.060s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo' for CMake module files
+[13.062s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo' for CMake config files
+[13.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[13.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[13.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[13.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[13.086s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib'
+[13.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[13.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[13.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[13.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[13.093s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/bin'
+[13.093s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[13.094s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib/python3.10/site-packages'
+[13.094s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/bin'
+[13.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[13.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[13.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[13.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[13.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[13.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[13.123s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py01_topic' with build type 'ament_python'
+[13.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('py01_topic', 'ament_prefix_path')
+[13.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/hook/ament_prefix_path.ps1'
+[13.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/hook/ament_prefix_path.dsv'
+[13.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/hook/ament_prefix_path.sh'
+[13.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.174s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py02_service' with build type 'ament_python'
+[13.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('py02_service', 'ament_prefix_path')
+[13.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/hook/ament_prefix_path.ps1'
+[13.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/hook/ament_prefix_path.dsv'
+[13.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/hook/ament_prefix_path.sh'
+[13.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.218s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py03_action' with build type 'ament_python'
+[13.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('py03_action', 'ament_prefix_path')
+[13.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/hook/ament_prefix_path.ps1'
+[13.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/hook/ament_prefix_path.dsv'
+[13.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/hook/ament_prefix_path.sh'
+[13.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.919s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py01_topic'
+[13.922s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.923s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.565s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py02_service'
+[14.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.493s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py03_action'
+[15.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py03_action': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed
+[16.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py01_topic': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed
+[16.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py02_service': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed
+[17.650s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic' for CMake module files
+[17.652s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic' for CMake config files
+[17.653s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib'
+[17.653s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/bin'
+[17.653s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/pkgconfig/py01_topic.pc'
+[17.653s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages'
+[17.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('py01_topic', 'pythonpath')
+[17.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py01_topic' returned '0': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed
+[17.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/hook/pythonpath.ps1'
+[17.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/hook/pythonpath.dsv'
+[17.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/hook/pythonpath.sh'
+[17.660s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/bin'
+[17.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py01_topic)
+[17.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/package.ps1'
+[17.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/package.dsv'
+[17.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/package.sh'
+[17.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/package.bash'
+[17.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/py01_topic/package.zsh'
+[17.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/share/colcon-core/packages/py01_topic)
+[17.689s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action' for CMake module files
+[17.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py03_action' returned '0': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed
+[17.690s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action' for CMake config files
+[17.695s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib'
+[17.695s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/bin'
+[17.695s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/pkgconfig/py03_action.pc'
+[17.696s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages'
+[17.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('py03_action', 'pythonpath')
+[17.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/hook/pythonpath.ps1'
+[17.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/hook/pythonpath.dsv'
+[17.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/hook/pythonpath.sh'
+[17.721s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/bin'
+[17.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py03_action)
+[17.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/package.ps1'
+[17.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/package.dsv'
+[17.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/package.sh'
+[17.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/package.bash'
+[17.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/py03_action/package.zsh'
+[17.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/share/colcon-core/packages/py03_action)
+[17.980s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service' for CMake module files
+[17.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py02_service' returned '0': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed
+[17.982s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service' for CMake config files
+[17.983s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib'
+[17.983s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/bin'
+[17.983s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/pkgconfig/py02_service.pc'
+[17.984s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages'
+[17.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('py02_service', 'pythonpath')
+[17.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/hook/pythonpath.ps1'
+[17.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/hook/pythonpath.dsv'
+[17.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/hook/pythonpath.sh'
+[17.988s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/bin'
+[17.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py02_service)
+[17.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/package.ps1'
+[17.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/package.dsv'
+[18.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/package.sh'
+[18.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/package.bash'
+[18.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service/package.zsh'
+[18.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/colcon-core/packages/py02_service)
+[18.011s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/tutorails_plumbing' with build type 'ament_python'
+[18.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorails_plumbing', 'ament_prefix_path')
+[18.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/hook/ament_prefix_path.ps1'
+[18.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/hook/ament_prefix_path.dsv'
+[18.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/hook/ament_prefix_path.sh'
+[18.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.092s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/tutorails_plumbing'
+[19.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.095s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/tutorails_plumbing': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tutorails_plumbing build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/install.log --single-version-externally-managed
+[21.648s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing' for CMake module files
+[21.650s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing' for CMake config files
+[21.651s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib'
+[21.651s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/bin'
+[21.651s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/pkgconfig/tutorails_plumbing.pc'
+[21.652s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages'
+[21.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorails_plumbing', 'pythonpath')
+[21.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/tutorails_plumbing' returned '0': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tutorails_plumbing build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/install.log --single-version-externally-managed
+[21.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/hook/pythonpath.ps1'
+[21.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/hook/pythonpath.dsv'
+[21.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/hook/pythonpath.sh'
+[21.661s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/bin'
+[21.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorails_plumbing)
+[21.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/package.ps1'
+[21.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/package.dsv'
+[21.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/package.sh'
+[21.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/package.bash'
+[21.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing/package.zsh'
+[21.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/colcon-core/packages/tutorails_plumbing)
+[36.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim -- -j8 -l8
+[36.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim
+[37.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[37.003s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim' for CMake module files
+[37.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/turtlesim
+[37.004s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim' for CMake config files
+[37.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[37.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[37.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[37.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[37.007s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/lib'
+[37.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[37.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[37.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[37.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[37.009s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/bin'
+[37.009s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[37.010s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/lib/python3.10/site-packages'
+[37.010s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/bin'
+[37.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/package.ps1'
+[37.011s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/package.dsv'
+[37.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/package.sh'
+[37.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/package.bash'
+[37.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/package.zsh'
+[37.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/colcon-core/packages/turtlesim)
+[37.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[37.217s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim' for CMake module files
+[37.218s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim' for CMake config files
+[37.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[37.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[37.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[37.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[37.221s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/lib'
+[37.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[37.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[37.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[37.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[37.223s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/bin'
+[37.223s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[37.224s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/lib/python3.10/site-packages'
+[37.224s] Level 1:colcon.colcon_core.environment:checking '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/bin'
+[37.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/package.ps1'
+[37.226s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/package.dsv'
+[37.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/package.sh'
+[37.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/package.bash'
+[37.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/turtlesim/package.zsh'
+[37.227s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/turtlesim/share/colcon-core/packages/turtlesim)
+[37.227s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[37.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[37.228s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[37.228s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[37.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[37.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[37.235s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[37.256s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[37.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/local_setup.ps1'
+[37.259s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/_local_setup_util_ps1.py'
+[37.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/setup.ps1'
+[37.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/local_setup.sh'
+[37.262s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/_local_setup_util_sh.py'
+[37.263s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/setup.sh'
+[37.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/local_setup.bash'
+[37.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/setup.bash'
+[37.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/local_setup.zsh'
+[37.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/setup.zsh'

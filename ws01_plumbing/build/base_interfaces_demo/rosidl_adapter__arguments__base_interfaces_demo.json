@@ -3,6 +3,7 @@
   "non_idl_tuples": [
     "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg",
     "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo:srv/AddInts.srv",
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo:srv/Distance.srv",
     "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo:action/Progress.action"
   ]
 }

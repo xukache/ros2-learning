@@ -1,0 +1,33 @@
+[2.661s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/tutorails_plumbing': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tutorails_plumbing build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/install.log --single-version-externally-managed
+[3.468s] running egg_info
+[3.471s] creating ../../build/tutorails_plumbing/tutorails_plumbing.egg-info
+[3.472s] writing ../../build/tutorails_plumbing/tutorails_plumbing.egg-info/PKG-INFO
+[3.474s] writing dependency_links to ../../build/tutorails_plumbing/tutorails_plumbing.egg-info/dependency_links.txt
+[3.475s] writing entry points to ../../build/tutorails_plumbing/tutorails_plumbing.egg-info/entry_points.txt
+[3.477s] writing requirements to ../../build/tutorails_plumbing/tutorails_plumbing.egg-info/requires.txt
+[3.478s] writing top-level names to ../../build/tutorails_plumbing/tutorails_plumbing.egg-info/top_level.txt
+[3.479s] writing manifest file '../../build/tutorails_plumbing/tutorails_plumbing.egg-info/SOURCES.txt'
+[3.483s] reading manifest file '../../build/tutorails_plumbing/tutorails_plumbing.egg-info/SOURCES.txt'
+[3.485s] writing manifest file '../../build/tutorails_plumbing/tutorails_plumbing.egg-info/SOURCES.txt'
+[3.486s] running build
+[3.486s] running build_py
+[3.487s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build
+[3.487s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build/lib
+[3.487s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build/lib/tutorails_plumbing
+[3.488s] copying tutorails_plumbing/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build/lib/tutorails_plumbing
+[3.489s] running install
+[3.490s] running install_lib
+[3.492s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages/tutorails_plumbing
+[3.493s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build/lib/tutorails_plumbing/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages/tutorails_plumbing
+[3.495s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages/tutorails_plumbing/__init__.py to __init__.cpython-310.pyc
+[3.496s] running install_data
+[3.497s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/ament_index
+[3.498s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index
+[3.500s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index/packages
+[3.501s] copying resource/tutorails_plumbing -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/ament_index/resource_index/packages
+[3.502s] copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/share/tutorails_plumbing
+[3.504s] running install_egg_info
+[3.507s] Copying ../../build/tutorails_plumbing/tutorails_plumbing.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages/tutorails_plumbing-0.0.0-py3.10.egg-info
+[3.509s] running install_scripts
+[3.548s] writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/install.log'
+[3.633s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/tutorails_plumbing' returned '0': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/tutorails_plumbing/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py04_param/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tutorails_plumbing build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/tutorails_plumbing/install.log --single-version-externally-managed

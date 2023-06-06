@@ -364,6 +364,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces_demo/srv" TYPE FILE FILES "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/Distance.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces_demo/action" TYPE FILE FILES "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/action/Progress.idl")
 endif()
 
@@ -381,6 +385,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces_demo/srv" TYPE FILE FILES "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_cmake/srv/AddInts_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces_demo/srv" TYPE FILE FILES "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/base_interfaces_demo/srv/Distance.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces_demo/srv" TYPE FILE FILES "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_cmake/srv/Distance_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces_demo/srv" TYPE FILE FILES "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_cmake/srv/Distance_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

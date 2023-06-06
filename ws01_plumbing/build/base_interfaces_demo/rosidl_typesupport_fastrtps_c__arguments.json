@@ -5,6 +5,7 @@
   "idl_tuples": [
     "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:msg/Student.idl",
     "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:srv/AddInts.idl",
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:srv/Distance.idl",
     "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:action/Progress.idl"
   ],
   "ros_interface_dependencies": [
@@ -27,6 +28,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/msg/Student.idl",
     "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/AddInts.idl",
+    "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/Distance.idl",
     "/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/action/Progress.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",

@@ -1,0 +1,23 @@
+[0.664s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py07_exercise': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py07_exercise build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/install.log --single-version-externally-managed
+[0.916s] running egg_info
+[0.917s] writing ../../build/py07_exercise/py07_exercise.egg-info/PKG-INFO
+[0.917s] writing dependency_links to ../../build/py07_exercise/py07_exercise.egg-info/dependency_links.txt
+[0.918s] writing entry points to ../../build/py07_exercise/py07_exercise.egg-info/entry_points.txt
+[0.918s] writing requirements to ../../build/py07_exercise/py07_exercise.egg-info/requires.txt
+[0.918s] writing top-level names to ../../build/py07_exercise/py07_exercise.egg-info/top_level.txt
+[0.920s] reading manifest file '../../build/py07_exercise/py07_exercise.egg-info/SOURCES.txt'
+[0.921s] writing manifest file '../../build/py07_exercise/py07_exercise.egg-info/SOURCES.txt'
+[0.921s] running build
+[0.921s] running build_py
+[0.921s] running install
+[0.922s] running install_lib
+[0.923s] running install_data
+[0.924s] running install_egg_info
+[0.926s] removing '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise-0.0.0-py3.10.egg-info' (and everything under it)
+[0.926s] Copying ../../build/py07_exercise/py07_exercise.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise-0.0.0-py3.10.egg-info
+[0.927s] running install_scripts
+[0.946s] Installing exe01_pub_sub_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/py07_exercise
+[0.947s] Installing exe02_server_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/py07_exercise
+[0.947s] Installing exe03_client_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/py07_exercise
+[0.947s] writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/install.log'
+[0.971s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py07_exercise' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py07_exercise build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/install.log --single-version-externally-managed

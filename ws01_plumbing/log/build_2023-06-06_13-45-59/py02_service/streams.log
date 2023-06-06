@@ -1,0 +1,41 @@
+[3.788s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py02_service': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed
+[4.627s] running egg_info
+[4.632s] creating ../../build/py02_service/py02_service.egg-info
+[4.632s] writing ../../build/py02_service/py02_service.egg-info/PKG-INFO
+[4.632s] writing dependency_links to ../../build/py02_service/py02_service.egg-info/dependency_links.txt
+[4.632s] writing entry points to ../../build/py02_service/py02_service.egg-info/entry_points.txt
+[4.633s] writing requirements to ../../build/py02_service/py02_service.egg-info/requires.txt
+[4.633s] writing top-level names to ../../build/py02_service/py02_service.egg-info/top_level.txt
+[4.633s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[4.634s] reading manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[4.636s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[4.637s] running build
+[4.637s] running build_py
+[4.640s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build
+[4.640s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build/lib
+[4.640s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build/lib/py02_service
+[4.640s] copying py02_service/demo02_client_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build/lib/py02_service
+[4.640s] copying py02_service/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build/lib/py02_service
+[4.641s] copying py02_service/demo01_server_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build/lib/py02_service
+[4.641s] running install
+[4.641s] running install_lib
+[4.643s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[4.643s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build/lib/py02_service/demo02_client_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[4.643s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build/lib/py02_service/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[4.643s] copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build/lib/py02_service/demo01_server_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[4.644s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo02_client_py.py to demo02_client_py.cpython-310.pyc
+[4.651s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/__init__.py to __init__.cpython-310.pyc
+[4.653s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo01_server_py.py to demo01_server_py.cpython-310.pyc
+[4.653s] running install_data
+[4.654s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/ament_index
+[4.655s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/ament_index/resource_index
+[4.655s] creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/ament_index/resource_index/packages
+[4.655s] copying resource/py02_service -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/ament_index/resource_index/packages
+[4.658s] copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/share/py02_service
+[4.658s] running install_egg_info
+[4.663s] Copying ../../build/py02_service/py02_service.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info
+[4.667s] running install_scripts
+[4.731s] Installing demo01_server_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/py02_service
+[4.732s] Installing demo02_client_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/py02_service
+[4.734s] writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/install.log'
+[4.804s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/src/py02_service' returned '0': AMENT_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo LD_LIBRARY_PATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/prefix_override:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/build install --record /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed

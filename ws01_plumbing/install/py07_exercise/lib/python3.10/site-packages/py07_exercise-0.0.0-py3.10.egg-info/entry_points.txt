@@ -1,3 +1,5 @@
 [console_scripts]
 exe01_pub_sub_py = py07_exercise.exe01_pub_sub_py:main
+exe02_server_py = py07_exercise.exe02_server_py:main
+exe03_client_py = py07_exercise.exe03_client_py:main
 

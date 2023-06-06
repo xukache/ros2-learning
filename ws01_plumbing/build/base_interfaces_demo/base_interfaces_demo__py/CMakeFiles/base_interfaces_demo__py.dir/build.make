@@ -71,12 +71,14 @@ base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_p
 base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
 base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/msg/_student.py
 base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/_add_ints.py
+base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/_distance.py
 base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/action/_progress.py
 base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/msg/__init__.py
 base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/__init__.py
 base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/action/__init__.py
 base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/msg/_student_s.c
 base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c
+base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/_distance_s.c
 base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/action/_progress_s.c
 
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
@@ -94,6 +96,7 @@ rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_types
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interfaces_demo/msg/Student.idl
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interfaces_demo/srv/AddInts.idl
+rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interfaces_demo/srv/Distance.idl
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interfaces_demo/action/Progress.idl
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
@@ -117,6 +120,9 @@ rosidl_generator_py/base_interfaces_demo/msg/_student.py: rosidl_generator_py/ba
 rosidl_generator_py/base_interfaces_demo/srv/_add_ints.py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/srv/_add_ints.py
 
+rosidl_generator_py/base_interfaces_demo/srv/_distance.py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/srv/_distance.py
+
 rosidl_generator_py/base_interfaces_demo/action/_progress.py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/action/_progress.py
 
@@ -135,6 +141,9 @@ rosidl_generator_py/base_interfaces_demo/msg/_student_s.c: rosidl_generator_py/b
 rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c
 
+rosidl_generator_py/base_interfaces_demo/srv/_distance_s.c: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/srv/_distance_s.c
+
 rosidl_generator_py/base_interfaces_demo/action/_progress_s.c: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/action/_progress_s.c
 
@@ -151,6 +160,8 @@ base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/msg/_student_
 base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/__init__.py
 base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/_add_ints.py
 base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c
+base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/_distance.py
+base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/_distance_s.c
 base_interfaces_demo__py: base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py.dir/build.make
 .PHONY : base_interfaces_demo__py
 

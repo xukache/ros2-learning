@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/py07_exercise/py07_exercise.egg-info
+writing ../../build/py07_exercise/py07_exercise.egg-info/PKG-INFO
+writing dependency_links to ../../build/py07_exercise/py07_exercise.egg-info/dependency_links.txt
+writing entry points to ../../build/py07_exercise/py07_exercise.egg-info/entry_points.txt
+writing requirements to ../../build/py07_exercise/py07_exercise.egg-info/requires.txt
+writing top-level names to ../../build/py07_exercise/py07_exercise.egg-info/top_level.txt
+writing manifest file '../../build/py07_exercise/py07_exercise.egg-info/SOURCES.txt'
+reading manifest file '../../build/py07_exercise/py07_exercise.egg-info/SOURCES.txt'
+writing manifest file '../../build/py07_exercise/py07_exercise.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build/lib
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build/lib/py07_exercise
+copying py07_exercise/exe03_client_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build/lib/py07_exercise
+copying py07_exercise/exe02_server_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build/lib/py07_exercise
+copying py07_exercise/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build/lib/py07_exercise
+copying py07_exercise/exe01_pub_sub_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build/lib/py07_exercise
+running install
+running install_lib
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise
+copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build/lib/py07_exercise/exe03_client_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise
+copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build/lib/py07_exercise/exe02_server_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise
+copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build/lib/py07_exercise/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise
+copying /home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/build/lib/py07_exercise/exe01_pub_sub_py.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise/exe03_client_py.py to exe03_client_py.cpython-310.pyc
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise/exe02_server_py.py to exe02_server_py.cpython-310.pyc
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise/exe01_pub_sub_py.py to exe01_pub_sub_py.cpython-310.pyc
+running install_data
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/ament_index
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/ament_index/resource_index
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/ament_index/resource_index/packages
+copying resource/py07_exercise -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/ament_index/resource_index/packages
+copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise
+creating /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/launch
+copying launch/exe02_server.launch.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/launch
+copying launch/exe01_pub_sub.launch.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/launch
+copying launch/exe03_client.launch.py -> /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/share/py07_exercise/launch
+running install_egg_info
+Copying ../../build/py07_exercise/py07_exercise.egg-info to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/python3.10/site-packages/py07_exercise-0.0.0-py3.10.egg-info
+running install_scripts
+Installing exe01_pub_sub_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/py07_exercise
+Installing exe02_server_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/py07_exercise
+Installing exe03_client_py script to /home/xukai/00-Learn/ros2-learning/ws01_plumbing/install/py07_exercise/lib/py07_exercise
+writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws01_plumbing/build/py07_exercise/install.log'
