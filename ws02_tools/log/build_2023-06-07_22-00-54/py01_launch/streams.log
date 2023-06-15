@@ -1,0 +1,36 @@
+[0.654s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws02_tools/src/py01_launch': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/prefix_override:/home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/build install --record /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/install.log --single-version-externally-managed
+[0.901s] running egg_info
+[0.902s] creating ../../build/py01_launch/py01_launch.egg-info
+[0.903s] writing ../../build/py01_launch/py01_launch.egg-info/PKG-INFO
+[0.903s] writing dependency_links to ../../build/py01_launch/py01_launch.egg-info/dependency_links.txt
+[0.903s] writing entry points to ../../build/py01_launch/py01_launch.egg-info/entry_points.txt
+[0.903s] writing requirements to ../../build/py01_launch/py01_launch.egg-info/requires.txt
+[0.904s] writing top-level names to ../../build/py01_launch/py01_launch.egg-info/top_level.txt
+[0.904s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[0.905s] reading manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[0.906s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[0.906s] running build
+[0.906s] running build_py
+[0.906s] creating /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/build
+[0.906s] creating /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/build/lib
+[0.906s] creating /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/build/lib/py01_launch
+[0.906s] copying py01_launch/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/build/lib/py01_launch
+[0.907s] running install
+[0.907s] running install_lib
+[0.907s] creating /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch
+[0.907s] copying /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/build/lib/py01_launch/__init__.py -> /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch
+[0.908s] byte-compiling /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch/__init__.py to __init__.cpython-310.pyc
+[0.908s] running install_data
+[0.908s] creating /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/ament_index
+[0.909s] creating /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/ament_index/resource_index
+[0.909s] creating /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/ament_index/resource_index/packages
+[0.909s] copying resource/py01_launch -> /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/ament_index/resource_index/packages
+[0.909s] copying package.xml -> /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch
+[0.909s] copying launch/py/py00_base.launch.py -> /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch
+[0.909s] copying launch/xml/xml00_base.launch.xml -> /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch
+[0.909s] copying launch/yaml/yaml00_base.launch.yaml -> /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch
+[0.910s] running install_egg_info
+[0.911s] Copying ../../build/py01_launch/py01_launch.egg-info to /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info
+[0.912s] running install_scripts
+[0.931s] writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/install.log'
+[0.956s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws02_tools/src/py01_launch' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/prefix_override:/home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/build install --record /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/install.log --single-version-externally-managed

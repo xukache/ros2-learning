@@ -1,0 +1,20 @@
+[0.566s] Invoking command in '/home/xukai/00-Learn/ros2-learning/ws02_tools/src/py01_launch': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/prefix_override:/home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/build install --record /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/install.log --single-version-externally-managed
+[0.787s] running egg_info
+[0.788s] writing ../../build/py01_launch/py01_launch.egg-info/PKG-INFO
+[0.789s] writing dependency_links to ../../build/py01_launch/py01_launch.egg-info/dependency_links.txt
+[0.789s] writing entry points to ../../build/py01_launch/py01_launch.egg-info/entry_points.txt
+[0.789s] writing requirements to ../../build/py01_launch/py01_launch.egg-info/requires.txt
+[0.789s] writing top-level names to ../../build/py01_launch/py01_launch.egg-info/top_level.txt
+[0.790s] reading manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[0.791s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[0.791s] running build
+[0.792s] running build_py
+[0.792s] running install
+[0.792s] running install_lib
+[0.793s] running install_data
+[0.793s] running install_egg_info
+[0.795s] removing '/home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[0.795s] Copying ../../build/py01_launch/py01_launch.egg-info to /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info
+[0.796s] running install_scripts
+[0.813s] writing list of installed files to '/home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/install.log'
+[0.836s] Invoked command in '/home/xukai/00-Learn/ros2-learning/ws02_tools/src/py01_launch' returned '0': PYTHONPATH=/home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/prefix_override:/home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/build install --record /home/xukai/00-Learn/ros2-learning/ws02_tools/build/py01_launch/install.log --single-version-externally-managed
