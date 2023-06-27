@@ -11,6 +11,11 @@ setup.py
 config/t2.yaml
 launch/py/py00_base.launch.py
 launch/py/py01_node.launch.py
+launch/py/py02_cmd.launch.py
+launch/py/py03_args.launch.py
+launch/py/py04_include.launch.py
+launch/py/py05_group.launch.py
+launch/py/py06_event.launch.py
 launch/xml/xml00_base.launch.xml
 launch/yaml/yaml00_base.launch.yaml
 py01_launch/__init__.py

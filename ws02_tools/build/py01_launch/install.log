@@ -2,8 +2,13 @@
 /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch/__pycache__/__init__.cpython-310.pyc
 /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/ament_index/resource_index/packages/py01_launch
 /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/package.xml
+/home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/py05_group.launch.py
+/home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/py03_args.launch.py
 /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/py01_node.launch.py
+/home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/py02_cmd.launch.py
+/home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/py04_include.launch.py
 /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/py00_base.launch.py
+/home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/py06_event.launch.py
 /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/xml00_base.launch.xml
 /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/yaml00_base.launch.yaml
 /home/xukai/00-Learn/ros2-learning/ws02_tools/install/py01_launch/share/py01_launch/t2.yaml
